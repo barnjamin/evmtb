@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "target": "es2022",
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": false,
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "evmtb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "scripts": {
+    "doit": "npx tsx src/index.ts",
+    "build":"npx tsc -p ./tsconfig.esm.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wormhole-foundation/connect-sdk": "^0.1.8-beta.1",
+    "@wormhole-foundation/connect-sdk-evm": "^0.1.8-beta.2",
+    "@wormhole-foundation/connect-sdk-evm-tokenbridge": "^0.1.8-beta.1",
+    "@wormhole-foundation/connect-sdk-evm-core": "^0.1.8-beta.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.9"
+  }
+}
